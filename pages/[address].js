@@ -214,7 +214,7 @@ export async function getStaticProps(context){
             Data,
             DonationsData
         },
-        revalidate: 10
+        revalidate: 1
     }
 
 
