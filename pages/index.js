@@ -167,7 +167,7 @@ export async function getStaticProps() {
       AnimalWelfareData,
       OthersData
     },
-    revalidate: 10
+    revalidate: 1
   }
 }
 
