@@ -213,7 +213,8 @@ export async function getStaticProps(context){
         props:{
             Data,
             DonationsData
-        }
+        },
+        revalidate: 10
     }
 
 
